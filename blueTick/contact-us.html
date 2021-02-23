@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="logo">Logo</h1>
+        <nav>
+            <ul id="navigate">
+                <li class="dropdown"><a href="./index.html">Home</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="">submenu1</a></li>
+                            <li><a href="">submenu2</a></li>
+                            <li><a href="">submenu3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./about.html">about</a></li>
+                <li><a class="open" href="./contact-us.html">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section>
+
+    <div class="contact_popup">
+        <div class="popup_header">
+            <h2>Lorem ipsum, dolor sit amet consectetur </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi magnam labore ullam exercitationem adipisci, voluptatem quo tenetur illum aliquid consequuntur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque veritatis natus dolorem.</p>
+        </div>
+        <div class="contact_body">
+            <form>
+                
+                <div>
+                    <label for="requirements">Please brief out your Requirements:</label>
+                    <input type="text" ngModel id="requirements" name="requirements" placeholder="Enter your message here">
+                </div>
+                <div>
+                    <label for="Name">Name:</label>
+                    <input type="text" id="Name" name="Name" placeholder="Enter your full name">
+                </div>
+                <div>
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="text" id="mobile" name="mobile" placeholder="Enter your Mobile number">
+                </div>
+                <div>
+                    <label for="Email">Email ID</label>
+                    <input type="text" id="Email" name="Email" placeholder="Enter your Email ID">
+                </div>
+                <div>
+                    <label for="message">message:</label>
+                    <input type="message" id="message" name="message" placeholder="message">
+                </div>
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</section>
+    
+<footer>
+    <div class="footer-start">
+        <div class="social-media">
+            <h4>Follow along</h4>
+            <ul class="social-icons">
+               <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+               <li><a href=""></a></li>
+               <li><a href=""></a></li>
+            </ul>
+        </div>
+        <div class="quick_links">
+            <h5>quick links</h5>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact-us.html">contact us</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <p>Copyright © All Rights Reserved</p>
+</footer>
+
+<script src="./js/global.js"></script>
+</body>
+
+</html>
